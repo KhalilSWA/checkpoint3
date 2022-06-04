@@ -1,0 +1,50 @@
+body 
+{
+background-size: cover;
+}
+
+footer
+{
+position:absolute;
+bottom:0;
+width:100%;
+padding-top:50px;
+height:50px;
+}
+
+p 
+{
+color:#8388ad;
+}
+
+.a
+{
+width: 500px;
+margin: 0 auto;
+position: relative;
+margin-top: -500px;
+}
+
+ul
+{
+width: 500px;
+margin: 0 auto;
+position: relative;
+color:#8388ad;
+}
+
+.b
+{
+width: 500px;
+margin: 0 auto;
+position: relative;
+margin-top: 00px;
+}
+
+ol
+{
+width: 500px;
+margin: 0 auto;
+position: relative;
+color:#8388ad;
+}
