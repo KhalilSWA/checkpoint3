@@ -1,22 +1,15 @@
 body 
 {
 background-size: cover;
+min-height: 100vh;
+align-items: flex-end;
+justify-content: flex-end;
 }
-
-footer
-{
-position:absolute;
-bottom:0;
-width:100%;
-padding-top:50px;
-height:50px;
-}
-
 p 
 {
 color:#8388ad;
+font-family:roboto;
 }
-
 .a
 {
 width: 500px;
@@ -24,15 +17,14 @@ margin: 0 auto;
 position: relative;
 margin-top: -500px;
 }
-
 ul
 {
+font-family:roboto;
 width: 500px;
 margin: 0 auto;
 position: relative;
 color:#8388ad;
 }
-
 .b
 {
 width: 500px;
@@ -40,11 +32,48 @@ margin: 0 auto;
 position: relative;
 margin-top: 00px;
 }
-
 ol
 {
+font-family:roboto;
 width: 500px;
 margin: 0 auto;
 position: relative;
 color:#8388ad;
+}
+footer
+{
+position: relative;
+width: 100%;
+background: #2b2e44;
+min-height: 100px;
+padding: 20px 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer .social_icon
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap;
+}
+footer .social_icon li
+{
+list-style: none;
+}
+footer .social_icon li a
+{
+font-size: 2em;
+color: #fff;
+margin: 0 20px;
+display: inline-block;
+transition: 0.5s;
+position: relative;
+}
+footer .social_icon li a:hover
+{
+transform: translateY(-10px);
 }
